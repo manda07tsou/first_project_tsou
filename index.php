@@ -9,7 +9,9 @@
     <title>Document</title>
 </head>
 <body>
-
+    <div class="header">
+        <?php include('pages/component/header.php') ?>
+    </div>
     <script src="scripts/index.js"></script>
 </body>
 </html>
