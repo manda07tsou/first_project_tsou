@@ -1,3 +1,87 @@
 header{
     background-color: var(--background-light);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+    position: relative;
 }
+
+.logo{
+    font-size: 25px;
+}
+
+.nav{
+    position: absolute;
+    background-color: inherit;
+    left: 0;
+    right: 0;
+    top: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease-in;
+    @extend %container;
+
+    a{
+        transition: color .3s;
+    }
+
+    a:hover{
+        color: var(--color-primary);
+    }
+}
+
+#menus-burger, #menus-burger span{
+    transition: background .3s;
+}
+
+.menus li{
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+.login-link{
+    font-size: 19px;
+    border-right: 1px solid;
+    padding-right: 5px;
+    margin-right: 5px;
+    i{
+        line-height: inherit;
+    }
+}
+
+.nav-side{
+    display: flex;
+    align-items: center;
+}
+
+header.is-open .nav{
+    opacity: 1;
+    pointer-events: all;
+}
+
+header.is-open #menus-burger{
+    span{
+        transition: all 0.3s;
+    }
+
+    @include animateMenuIcon($spanHeight:3px, $spanMargin:3px)
+}
+
+@media (min-width: 700px){
+    #menus-burger{
+        display: none;
+    }
+
+    .nav{
+        position: relative;
+        opacity: 1;
+        pointer-events: all;
+    }
+    
+    .menus li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+

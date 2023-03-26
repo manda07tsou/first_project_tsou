@@ -1,4 +1,8 @@
-@import "tools/index";
 @import "tools/reset";
+@import "tools/index";
+@import "tools/mixins";
 
+
+@import "component/figure";
+@import "component/themeSwitcher";
 @import "component/header";

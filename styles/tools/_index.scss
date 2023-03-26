@@ -1,6 +1,19 @@
 :root{
     --background: #d9d9d9;
     --background-light: #ffffff;
+    --color: #404040;
+    --color-primary: #cc6600;
+    --primary-inversed: #cccccc;
+}
+
+.is-dark{
+    --background: #001a33;
+    --background-light: #00284d;
+    --color: #cccccc;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 body{
@@ -8,4 +21,29 @@ body{
     font-size: 16px;
     line-height: 1.5em;
     background-color: var(--background);
+    color: var(--color);
+}
+
+%container{
+    padding: 0 20px;
+}
+
+@media (min-width:840px){
+    %container{
+        padding: 0 50px;
+    }
+}
+
+@media (min-width:1000px){
+    %container{
+        padding: 0 100px;
+    }
+}
+
+.container{
+    @extend %container;
+}
+
+.text-primary{
+    color: var(--color-primary);
 }

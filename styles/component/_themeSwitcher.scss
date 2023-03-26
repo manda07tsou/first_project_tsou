@@ -1,0 +1,61 @@
+:root{
+    --theme-switcher: gainsboro;
+    --height: 20px;
+}
+
+.theme-switcher{
+    display: flex;
+    align-items: center;
+    background-color: var(--theme-switcher);
+    width: 40px;
+    height: var(--height);
+    position: relative;
+    border-radius: calc(var(--height) / 2);
+    border: 2px solid gray;
+}
+
+
+.theme-switcher span{
+    display: inline-block;
+    width: calc(var(--height) - 2px);
+    height:calc(var(--height) - 2px);
+    background-color: rgb(80, 78, 78);
+    border-radius: 50%;
+    vertical-align: middle;
+    position: absolute;
+    transition: all .5s;
+}
+
+.is-light .theme-switcher span{
+    animation: light .2s forwards;
+}
+
+.is-dark .theme-switcher span{
+    animation: dark .2s forwards;
+}
+
+
+
+@keyframes dark {
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: calc(100% - var(--height) + 2px);
+    }
+}
+
+@keyframes light {
+    0%{
+        left: calc(100% - var(--height));
+    }
+    
+    100%{
+        left: 0;
+    }
+}
+
+
+
+
