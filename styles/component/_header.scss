@@ -5,6 +5,11 @@ header{
     padding-top: 20px!important;
     padding-bottom: 20px!important;
     position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
 }
 
 .logo{
@@ -41,6 +46,11 @@ header{
 .menus li{
     text-transform: uppercase;
     font-size: .9em;
+    font-weight: bold;
+}
+
+.menu-active{
+    color: var(--color-primary);
 }
 
 .login-link{

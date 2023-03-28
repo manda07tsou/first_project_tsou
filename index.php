@@ -12,6 +12,10 @@
     <div class="header">
         <?php include('pages/component/header.php') ?>
     </div>
+
+    <div class="body">
+        <?php include('pages/produits/produits.php') ?>
+    </div>
     <script type="module" src="./scripts/index.js"></script>
 </body>
 </html>

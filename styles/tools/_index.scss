@@ -4,16 +4,14 @@
     --color: #404040;
     --color-primary: #cc6600;
     --primary-inversed: #cccccc;
+    --border: #d9d9d9;
 }
 
 .is-dark{
     --background: #001a33;
     --background-light: #00284d;
     --color: #cccccc;
-}
-
-*{
-    box-sizing: border-box;
+    --border: #004466;
 }
 
 body{
@@ -22,6 +20,11 @@ body{
     line-height: 1.5em;
     background-color: var(--background);
     color: var(--color);
+}
+
+.body{
+    margin-top: 65px;
+    height: 1000px;
 }
 
 %container{

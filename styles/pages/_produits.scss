@@ -2,11 +2,45 @@
     background-color: var(--background-light);
     border-bottom: 1px solid var(--border);
     padding-bottom: 20px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
-.panier-link{
-    justify-self: end;
-    align-self: flex-end;
+#panier-link{
+    float: right;
+    &::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+#panier-link span{
+    border-left: 1px solid;
+    margin-left: 5px;
+    padding: 3px 0 3px 5px ;
+}
+
+
+.search-area{
+    width: 50%;
+}
+
+@media (max-width: 700px){
+    .product-header{
+        position: relative;
+    }
+
+    .search-area{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--background-light);
+        padding: 0 20px 20px 20px;
+    }
 }
