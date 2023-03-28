@@ -11,7 +11,7 @@ header{
     font-size: 25px;
 }
 
-.nav{
+.menus{
     position: absolute;
     background-color: inherit;
     left: 0;
@@ -20,7 +20,7 @@ header{
     opacity: 0;
     pointer-events: none;
     transition: opacity .3s ease-in;
-    @extend %container;
+    padding-left: 20px;
 
     a{
         transition: color .3s;
@@ -35,6 +35,9 @@ header{
     transition: background .3s;
 }
 
+.nav{
+    background-color: var(--background-light);
+}
 .menus li{
     text-transform: uppercase;
     font-size: .9em;
@@ -45,6 +48,7 @@ header{
     border-right: 1px solid;
     padding-right: 5px;
     margin-right: 5px;
+
     i{
         line-height: inherit;
     }
@@ -53,9 +57,10 @@ header{
 .nav-side{
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 
-header.is-open .nav{
+header.is-open .menus{
     opacity: 1;
     pointer-events: all;
 }
@@ -74,7 +79,11 @@ header.is-open #menus-burger{
     }
 
     .nav{
-        position: relative;
+        display: flex;
+    }
+
+    .menus{
+        position: static;
         opacity: 1;
         pointer-events: all;
     }

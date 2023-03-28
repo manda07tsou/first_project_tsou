@@ -13,11 +13,11 @@
             <li><a href="#">a propos</a></li>
             <li><a href="#">contact</a></li>
         </ul>
-    </nav>
-    <div class="nav-side">
-        <a href="#" class="login-link"><i class="fa fa-circle-user"></i></a>
-        <div class="theme-area">
-            <theme-switcher class="theme-switcher"></theme-switcher>
+        <div class="nav-side">
+            <a href="#" class="login-link"><i class="fa fa-circle-user"></i></a>
+            <div class="theme-area">
+                <theme-switcher class="theme-switcher"></theme-switcher>
+            </div>
         </div>
-    </div>
+    </nav>
 </header>
