@@ -1,0 +1,12 @@
+.product-header{
+    background-color: var(--background-light);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.panier-link{
+    justify-self: end;
+    align-self: flex-end;
+}

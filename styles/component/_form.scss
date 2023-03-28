@@ -1,0 +1,71 @@
+form{
+    display: block;
+}
+
+%form-control{
+    padding: var(--padding);
+    border: 1px solid var(--border);
+    width: 100%;
+    outline: none;
+    line-height: inherit;
+    color: var(--text-input)!important;
+    font-size: 95%;
+    font-family: inherit;
+    background-color: var(--background-light);
+}
+
+.form-control:focus{
+    box-shadow: 0 0 5px gray;
+}
+
+input.form-control{
+    @extend %form-control;
+}
+
+input[type=number]{
+    width: 70px!important;
+}
+
+select.form-control{
+    @extend %form-control;
+    margin-bottom: 5px;
+}
+
+textarea.form-control{
+    @extend %form-control;
+    height: 200px;
+    // color: inherit!important;
+}
+
+
+.form-group{
+    display:flex;
+    width: 100%;
+    border-collapse: collapse;
+    
+    &>*{
+        padding: var(--padding);
+        border: 1px solid var(--border)!important;
+        border-right: none!important;
+    }
+
+    &>*:last-child{
+        border-right: 1px solid var(--border)!important;
+    }
+
+    input[type=text]{
+        @extend %form-control;
+        border: none;
+        width: 100%;
+    }
+
+    select{
+        background-color: var(--background-light);
+        border: none;
+    }
+
+    i{
+        padding: 0;
+    }
+}
+
