@@ -1,0 +1,36 @@
+$card-padding: 10px;
+
+.card{
+    background-color: #cceeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow .3s;
+
+    &:hover{
+        box-shadow: 0 0 5px var(--color-secondary);
+    }
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-body{
+    padding: $card-padding;
+    padding-top: 10;
+    padding-bottom: 0;
+}
+
+.card-footer{
+    padding: $card-padding;
+}
+
+.card-title{
+    font-weight: bold;
+
+    &::first-letter{
+        text-transform: uppercase;
+    }
+}
