@@ -7,6 +7,7 @@
     --color-secondary: #008040;
     --border: #d9d9d9;
     --padding-container: 20px;
+    --bg-card: #ccffe6;
 }
 
 .is-dark{
@@ -14,6 +15,7 @@
     --background-light: #00284d;
     --color: #cccccc;
     --border: #004466;
+    --bg-card:var(--background-light);
 }
 
 body{
@@ -24,6 +26,9 @@ body{
     color: var(--color);
 }
 
+body,header,footer,.card, .nav,.product-header{
+    transition: background-color .3s, color .3s, border .3s linear;
+}
 .body{
     margin-top: 64px;
     height: 1000px;

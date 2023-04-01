@@ -99,7 +99,7 @@ header.is-open #menus-burger{
     @include animateMenuIcon($spanHeight:3px, $spanMargin:3px)
 }
 
-@media (min-width: 700px){
+@media (min-width: 720px){
     #menus-burger{
         display: none;
     }
