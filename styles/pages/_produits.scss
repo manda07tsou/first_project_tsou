@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
+    // top: -1px;
     width: 100%;
 }
 
@@ -39,6 +40,11 @@
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px;
     margin-top: 20px;
+}
+
+.filter-area{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 900px){
