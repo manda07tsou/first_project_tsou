@@ -1,4 +1,4 @@
-$card-padding: 10px;
+$card-padding: 5px;
 
 .card{
     background-color: var(--bg-card);
@@ -7,6 +7,7 @@ $card-padding: 10px;
     justify-content: space-between;
     cursor: pointer;
     transition: box-shadow .3s;
+    padding: $card-padding;
 
     &:hover{
         box-shadow: 0 0 5px var(--color-secondary);
@@ -18,13 +19,12 @@ $card-padding: 10px;
 }
 
 .card-body{
-    padding: $card-padding;
-    padding-top: 10;
-    padding-bottom: 0;
+    padding-top: $card-padding;
+    padding-bottom: $card-padding;
 }
 
 .card-footer{
-    padding: $card-padding;
+    padding-top: $card-padding;
 }
 
 .card-title{
