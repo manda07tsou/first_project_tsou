@@ -1,7 +1,7 @@
 <a href="#" class="card">
     <img src="../images/image2.png" alt="">
     <div class="card-body">
-        <div class="card-title">nom produit</div>
+        <div class="card-title">nom produit pour un test de longueur</div>
         <h5 class="text-primary card-title">1500 Ar</h5>
     </div>
     <div class="card-footer">
