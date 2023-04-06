@@ -7,8 +7,8 @@ ob_start();
         case 'produits':
             include('pages/produits/produits.php');
         break;
-        case 'produits-details':
-            include('pages/produits/details.php'); 
+        case 'produit-details':
+            include('pages/produits/details_produit.php'); 
 
     }
 $body = ob_get_clean();

@@ -2,7 +2,7 @@
 
 <div class="products-area">
     <div class="filter-area">
-        <div class="page-title text-secondary">Nos produits:</div>
+        <div class="page-title">Nos produits:</div>
         <div >Filtre de toutes les produits</div>
     </div>
     <div class="products">
@@ -11,6 +11,5 @@
                 include('_card.php');
             }
          ?>
-
     </div>
 </div>

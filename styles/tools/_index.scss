@@ -1,13 +1,13 @@
 :root{
-    --background: #e6e6e6;
+    --background: #f7fafb;
     --background-light: #ffffff;
     --color: #404040;
     --color-primary: #cc6600;
     --primary-inversed: #ffe0e0;
     --color-secondary: #008040;
-    --border: #d9d9d9;
+    --border: #d5e3ec;
     --padding-container: 20px;
-    --bg-card: #ccffe6;
+    --shadow: #d8e1e8;
 }
 
 .is-dark{
@@ -16,6 +16,7 @@
     --color: #cccccc;
     --border: #004466;
     --bg-card:var(--background-light);
+    --shadow: var(--background);
 }
 
 body{
@@ -93,8 +94,46 @@ body,header,footer,.card, .nav,.product-header{
     line-height: 1.2;
 }
 
+.p5{
+    padding: 5px;
+}
+
+.pt5{
+    padding-top: 5px;
+}
+
+.m5{
+    margin: 5px;
+}
+
+.mt5{
+    margin-top: 5px;
+}
+
+.p10{
+    padding: 10px;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+
+.m10{
+    margin: 10px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+
 .page-title{
     text-transform: uppercase;
     @extend .h5;
     font-weight: bold;
+    margin-bottom: 10px;
 }

@@ -1,13 +1,16 @@
 $card-padding: 5px;
 
 .card{
-    background-color: var(--bg-card);
+    background-color: var(--background-light);
+    box-shadow: 0 0 20px var(--shadow);
+    border: 1px solid var(--border);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
     transition: box-shadow .3s;
     padding: $card-padding;
+    border-radius: 4px;
 
     &:hover{
         box-shadow: 0 0 5px var(--color-secondary);
@@ -32,5 +35,18 @@ $card-padding: 5px;
 
     &::first-letter{
         text-transform: uppercase;
+    }
+}
+
+
+.card-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    cursor: auto;
+
+    &:hover{
+        box-shadow: 0 0 20px var(--shadow);
     }
 }
