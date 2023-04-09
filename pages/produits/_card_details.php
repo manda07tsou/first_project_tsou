@@ -12,9 +12,12 @@
 
     <div class="card-body">
         <h4>nom produit mba atao somary lava amle mandona tsara</h4>
-        <h5 class="text-primary card-title">1.500.000 Ar</h5>
+        <h5 class="text-primary card-title">1.500.000</h5>
         <div class="card-information">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque delectus 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque delectus 
+                voluptate at, impedit a, quia similique blanditiis, 
+                omnis velit quae. Incidunt quod quidem, dolore explicabo autem ex quaerat quo!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque delectus 
                 voluptate at, impedit a, quia similique blanditiis, 
                 omnis velit quae. Incidunt quod quidem, dolore explicabo autem ex quaerat quo!</p>
             <p><strong>Nombre en stock :</strong>stock illimité</p>
@@ -31,3 +34,4 @@
         </div>
     </div>
 </div>
+

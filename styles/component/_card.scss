@@ -38,15 +38,30 @@ $card-padding: 5px;
     }
 }
 
+// .card-details{
+//     display: flex;
+//     flex-direction: row;
+// }
+// .card-details .card-images{
+//     float: left;
+//     width: 50%;
+// }
 
-.card-details{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    padding: 20px;
-    cursor: auto;
+// .card-details .card-body{
+//     // float: left;
+//     // width: 50%;
+// }
 
-    &:hover{
-        box-shadow: 0 0 20px var(--shadow);
+.card-details:hover{
+    box-shadow: 0 0 20px var(--shadow);
+}
+@media (min-width:720px){
+    .card-details{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 20px;
+        cursor: auto;
     }
 }
+
