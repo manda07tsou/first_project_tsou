@@ -66,7 +66,7 @@
     .dropdown-closed{
         position: absolute;
         top: 5px;
-        right: 10px;
+        right: 15px;
         font-size: 1.1em!important;
         font-weight: bold;
         cursor: pointer;
@@ -85,7 +85,6 @@
         border-radius: 5px;
         border: 1px solid var(--border);
         min-width: 300px;
-        // width: calc(100vw - (var(--padding-container) * 2 + 16px));
         padding: 10px 20px;
         animation: hide .3s;
         z-index: 1000;

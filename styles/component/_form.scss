@@ -29,6 +29,7 @@
 
     *{
         border-radius: 0!important;
+        border-right: none;
     }
 
     & > *:nth-child(1){
@@ -57,7 +58,18 @@
         border-radius: 0 40px 40px 0!important;
         padding-right: 10px;
     }
+}
 
+.select-form{
+    background-color: var(--background-light);
+    border: 1px solid var(--border);
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+
+    &:focus{
+        box-shadow: 0 0 3px var(--color-primary)
+    }
 }
 
 

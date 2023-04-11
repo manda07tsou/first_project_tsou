@@ -44,6 +44,14 @@
 .filter-area{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding:10px 0;
+}
+
+.filter-form{
+    display: flex;
+    // padding-right: 20px;
 }
 
 .product-detail{

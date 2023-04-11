@@ -22,6 +22,9 @@
             <a href="../images/image2.png" target="_blank">
                 <img src="../images/image2.png" alt="">
             </a>
+            <a href="../images/image4.jpg" target="_blank">
+                <img src="../images/image4.jpg" alt="image4">
+            </a>
         </div>
     </div>
 
