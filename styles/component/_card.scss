@@ -38,20 +38,10 @@ $card-padding: 5px;
     }
 }
 
-// .card-details{
-//     display: flex;
-//     flex-direction: row;
-// }
-// .card-details .card-images{
-//     float: left;
-//     width: 50%;
-// }
-
-// .card-details .card-body{
-//     // float: left;
-//     // width: 50%;
-// }
-
+.card-action{
+    display: flex;
+    justify-content: space-between;
+}
 .card-details:hover{
     box-shadow: 0 0 20px var(--shadow);
 }

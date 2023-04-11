@@ -25,10 +25,12 @@
 
         <div class="card-footer">
             <form action="#">
-                <input type="number" class="form-control">
-                <div class="btn-group mt10">
-                    <a href="#" class="btn-primary">Ajouter au panier</a>
-                    <a href="#" class="btn-secondary">Acheter</a>
+                <div class="card-action">
+                    <input type="number" class="form-control">
+                    <div>
+                        <a href="#" class="btn-primary">Ajouter au panier</a>
+                        <a href="#" class="btn-secondary">Acheter</a>
+                    </div>
                 </div>
             </form>
         </div>

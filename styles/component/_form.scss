@@ -19,6 +19,11 @@
     @extend %form-control;
 }
 
+.form-control[type=number]{
+    width: 100px;
+}
+
+
 .form-group{
     display:flex;
 
