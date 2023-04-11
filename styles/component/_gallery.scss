@@ -1,9 +1,13 @@
-.slider{
+.gallery{
     display:grid;
     grid-template-columns: 4fr 1fr;
 }
 
-.slider-list{
+.gallery>img{
+    height: 100%;
+}
+
+.gallery-list{
     background-color: var(--background-light);
     padding: 0 10px;
 
@@ -21,7 +25,7 @@
     }
 }
 
-.slider-list img[data-current]{
+.gallery-list img[data-current]{
     filter: brightness(1);
     opacity: 1;
     border: 1px solid var(--color-primary);
