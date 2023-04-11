@@ -16,6 +16,10 @@
     <div class="body">
         <?php echo $body ?>
     </div>
+
+    <div class="footer">
+        <?php include('pages/component/footer.php') ?>
+    </div>
     <script type="module" src="./scripts/index.js"></script>
 </body>
 </html>

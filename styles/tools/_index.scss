@@ -8,6 +8,8 @@
     --border: #d5e3ec;
     --padding-container: 20px;
     --shadow: #d8e1e8;
+    --bg-footer: #404040;
+    --footer-color:#cccccc;
 }
 
 .is-dark{
@@ -17,6 +19,8 @@
     --border: #004466;
     --bg-card:var(--background-light);
     --shadow: var(--background);
+    --bg-footer: var(--background-light);
+    --footer-color:var(--color);
 }
 
 body{
@@ -33,6 +37,7 @@ body,header,footer,.card, .nav,.product-header{
 
 .body{
     margin-top: 64px;
+    padding-bottom: 50px;
 }
 
 @media (min-width:840px){
@@ -48,7 +53,8 @@ body,header,footer,.card, .nav,.product-header{
 }
 
 %container{
-    padding: var(--padding-container);
+    padding-left: var(--padding-container);
+    padding-right: var(--padding-container);
 }
 
 
@@ -66,31 +72,37 @@ body,header,footer,.card, .nav,.product-header{
 
 .h1,h1{
     font-size: 40px;
+    font-weight: 600;
     line-height: 1.2;
 }
 
 .h2,h2{
     font-size: 36px;
+    font-weight: 600;
     line-height: 1.2;
 }
 
 .h3,h3{
     font-size: 32px;
+    font-weight: 600;
     line-height: 1.2;
 }
 
 .h4,h4{
     font-size: 28px;
+    font-weight: 600;
     line-height:1.2;
 }
 
 .h5,h5{
     font-size: 22px;
+    font-weight: 600;
     line-height: 1.2;
 }
 
 .h6,h6{
     font-size: 18px;
+    font-weight: 600;
     line-height: 1.2;
 }
 
