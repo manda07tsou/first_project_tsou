@@ -15,8 +15,11 @@
         </div>
     </drop-down>
     <div class="search-area">
-        <form action="#" class="form">
-            <input type="text" class="form-search" placeholder="Recherche">
+        <form action="#" class="form-search">
+            <input type="text" class="form-control" placeholder="Recherche">
+            <button class="btn-primary">
+                <i class="fa fa-search"></i>
+            </button>
         </form>
     </div>
     <div>

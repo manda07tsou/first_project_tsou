@@ -28,11 +28,11 @@ body{
 }
 
 body,header,footer,.card, .nav,.product-header{
-    transition: background-color .3s, color .3s, border .3s linear;
+    transition: background-color .2s, border .2s linear;
 }
+
 .body{
     margin-top: 64px;
-    // height: 1000px;
 }
 
 @media (min-width:840px){

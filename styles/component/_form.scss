@@ -7,27 +7,51 @@
     border: none;
     border: 1px solid var(--border);
     outline: none;
+    background-color: transparent;
 
     &:focus{
         box-shadow: 0 0 3px var(--color-primary)
     }
 }
 
-.form-search{
+
+.form-control{
     @extend %form-control;
-    background-image: url("images/icons/search-icon.svg");
-    background-size: 16px;
-    background-repeat: no-repeat;
-    background-position: 12px;
-    padding-left: 32px;
-    background-color: transparent;
-    color: var(--color);
-    border-radius: 25px;
-    
-    &::placeholder{
-        opacity: .5;
+}
+
+.form-group{
+    display:flex;
+
+    *{
+        border-radius: 0!important;
     }
 
+    & > *:nth-child(1){
+        border-radius: 4px 0 0 4px!important;
+        padding-left: 10px;
+    }
+
+    & > *:nth-last-child(1){
+        border-radius: 0 4px 4px 0!important;
+    }
+}
+
+.form-search{
+    @extend .form-group;
+
+    *{
+        border-radius: 0!important;
+    }
+
+    & > *:nth-child(1){
+        border-radius: 40px 0 0 40px!important;
+        padding-left: 20px;
+    }
+
+    & > *:nth-last-child(1){
+        border-radius: 0 40px 40px 0!important;
+        padding-right: 10px;
+    }
 
 }
 
