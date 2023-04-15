@@ -6,16 +6,15 @@ $card-padding: 5px;
     border: 1px solid var(--border);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
     transition: box-shadow .3s;
     padding: $card-padding;
     border-radius: 4px;
-
-    &:hover{
-        box-shadow: 0 0 5px var(--color-secondary);
-    }
 }
+
+.card-link:hover{
+    box-shadow: 0 0 5px var(--color-secondary);
+}
+
 
 .card img{
     width: 100%;
@@ -52,9 +51,6 @@ $card-padding: 5px;
     height: auto;
 }
 
-.card-details:hover{
-    box-shadow: 0 0 20px var(--shadow);
-}
 @media (min-width:720px){
     .card-details{
         display: grid;

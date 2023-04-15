@@ -13,15 +13,15 @@
                         <option value="test3">nomber en stock</option>
                     </select>
                 </div>
-                <button type="submit" class="btn-secondary ml10">Afficher</button>
+                <button type="submit" class="btn-secondary ml-10">Afficher</button>
             </form>
         </div>
     </div>
     <div class="products">
-        <?php
-            for($i=0; $i<3; $i++){
-                include('_card.php');
-            }
-         ?>
+        <?php for($i=0; $i<15; $i++){?>
+            <a href="?p=produit-details" class="product">
+                <?php include('_card.php');?>
+            </a>
+        <?php } ?>
     </div>
 </div>

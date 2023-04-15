@@ -4,11 +4,11 @@
         <span class="line2"></span>
         <span class="line3"></span>
     </div>
-    <div class="logo"><a href="?p=produits">E-Shop</a></div>
+    <div class="logo"><a href="?p=home">E-Shop</a></div>
     <nav class="nav">
         <ul class="menus">
-            <li><a href="#">accueil</a></li>
-            <li class="menu-active"><a href="#">produits</a></li>
+            <li class="menu-active"><a href="?p=home">accueil</a></li>
+            <li><a href="?p=produits">produits</a></li>
             <li><a href="#">services</a></li>
             <li><a href="#">a propos</a></li>
             <li><a href="#">contact</a></li>

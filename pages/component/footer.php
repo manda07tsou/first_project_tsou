@@ -22,7 +22,7 @@
         <h5>Liens</h5>
         <ul>
             <li><a href="#">accueil</a></li>
-            <li class="menu-active"><a href="#">produits</a></li>
+            <li><a href="#">produits</a></li>
             <li><a href="#">services</a></li>
             <li><a href="#">a propos</a></li>
             <li><a href="#">contact</a></li>

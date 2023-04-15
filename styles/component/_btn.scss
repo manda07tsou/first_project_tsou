@@ -6,11 +6,15 @@
     border-radius: 4px;
     transition: filter .3s, background-color .3s, color .3s;
     min-width: 40px;
+    cursor: pointer;
+    
+    &::first-letter, a::first-letter{
+        text-transform: uppercase;
+    }
 
     &:hover{
         filter: contrast(.6);
     }
-
 }
 
 
@@ -59,6 +63,20 @@
     
     &:hover{
         filter: brightness(1);
+    }
+}
+
+.btn-group{
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-right: none;
+    border-radius: 4px;
+    overflow: hidden;
+
+    &>*{
+        border-radius: 0;
+        border: 0;
+        border-right: 1px solid var(--border);
     }
 }
 

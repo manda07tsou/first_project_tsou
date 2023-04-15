@@ -14,11 +14,11 @@
     <div class="similar-products">
         <div class="page-title">Produits similaires</div>
         <div class="products">
-        <?php
-            for($i=0; $i<2; $i++){
-                include('_card.php');
-            }
-         ?>
-    </div>
+            <?php for($i=0; $i<3; $i++){?>
+                <a href="?p=produit-details" class="product">
+                    <?php include('_card.php');?>
+                </a>
+            <?php } ?>
+        </div>
     </div>
 </div>

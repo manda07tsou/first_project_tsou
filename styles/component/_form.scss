@@ -15,6 +15,20 @@
 }
 
 
+form{
+    text-align: left!important;
+}
+
+form label{
+    display: block;
+    margin-top: 15px;
+    line-height: inherit;
+}
+
+.form-group label{
+    margin: 0;
+}
+
 .form-control{
     @extend %form-control;
 }
@@ -70,6 +84,12 @@
     &:focus{
         box-shadow: 0 0 3px var(--color-primary)
     }
+}
+
+.textarea{
+    min-height: 130px;
+    font-family: inherit;
+    @extend %form-control;
 }
 
 

@@ -1,20 +1,15 @@
 <div class="card card-details">
     <div class="gallery">
-        <img src="../images/image3.jpg" alt="" class="current-img">
+        <img src="../images/image5.jpg" alt="" class="current-img">
         <div class="gallery-list">
-            <!-- <img src="../images/image3.jpg" alt="image3" data-current="true">
-            <img src="../images/image4.jpg" alt="image4">
-            <img src="../images/image5.jpg" alt="">
-            <img src="../images/image1.png" alt="">
-            <img src="../images/image2.png" alt=""> -->
-            <a href="../images/image3.jpg" target="_blank">
-                <img src="../images/image3.jpg" alt="image3" data-current="true">
+            <a href="../images/image5.jpg" target="_blank">
+                <img src="../images/image5.jpg" alt="image3" data-current="true">
             </a>
             <a href="../images/image4.jpg" target="_blank">
                 <img src="../images/image4.jpg" alt="image4">
             </a>
-            <a href="../images/image5.jpg" target="_blank">
-                <img src="../images/image5.jpg" alt="">
+            <a href="../images/image3.jpg" target="_blank">
+                <img src="../images/image3.jpg" alt="">
             </a>
             <a href="../images/image1.png" target="_blank">
                 <img src="../images/image1.png" alt="">
