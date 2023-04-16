@@ -2,7 +2,7 @@
     <div>
         <h1 class="text-secondary">Bienvenue sur E-Shop</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Modi optio recusandae minus deserunt, velit omnis odio.</p>
-        <a href="?p=produits" class="btn-primary mt-5">Acheter maintenant</a>
+        <a href="?p=produits" class="btn-primary mt-5">Acheter maintenant<span class="icon">&#10095;<span></a>
     </div>
     <img src="./../images/fondHeader.webp" alt="home-img" class="home-img">
 </div>

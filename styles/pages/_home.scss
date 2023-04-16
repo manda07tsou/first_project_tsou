@@ -24,8 +24,12 @@
     @extend %container;
 }
 
+.product-section .category-btn a{
+    margin-top: 5px;
+}
+
 .link-show-all{
-    display: block;
+    display: inline-block;
     font-size: 1.2em;
     margin-top: 20px!important;
     transition: filter .3s;
@@ -56,7 +60,9 @@
 .contact img{
     border-radius: 5px;
     margin-top: 38px;
-    // height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media (min-width: 720px){

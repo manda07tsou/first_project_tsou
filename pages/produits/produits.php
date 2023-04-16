@@ -2,7 +2,7 @@
 
 <div class="products-area">
     <div class="filter-area">
-        <div class="page-title">Nos produits:</div>
+        <h4 class="page-title">Nos produits:</h4>
         <div>
             <form action="#" class="filter-form">
                 <div class="form-group">

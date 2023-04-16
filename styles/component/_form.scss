@@ -8,6 +8,7 @@
     border: 1px solid var(--border);
     outline: none;
     background-color: transparent;
+    border-radius: 4px;
 
     &:focus{
         box-shadow: 0 0 3px var(--color-primary)
@@ -87,7 +88,7 @@ form label{
 }
 
 .textarea{
-    min-height: 130px;
+    min-height: 200px;
     font-family: inherit;
     @extend %form-control;
 }

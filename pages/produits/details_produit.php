@@ -2,7 +2,7 @@
 
 <div class="products-area">
     <div class="product-detail">
-        <div class="page-title">Details produits : </div>
+        <h4 class="page-title">Details produits : </h4>
         <?php include("_card_details.php"); ?>
         <div class="product-other-information">
             <h6>Plus d'information sur le produit</h6>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="similar-products">
-        <div class="page-title">Produits similaires</div>
+        <h5 class="page-title">Produits similaires</h5>
         <div class="products">
             <?php for($i=0; $i<3; $i++){?>
                 <a href="?p=produit-details" class="product">
