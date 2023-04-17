@@ -14,11 +14,9 @@
     <div class="similar-products">
         <h5 class="page-title">Produits similaires</h5>
         <div class="products">
-            <?php for($i=0; $i<3; $i++){?>
-                <a href="?p=produit-details" class="product">
-                    <?php include('_card.php');?>
-                </a>
-            <?php } ?>
+            <?php for($i=0; $i<2; $i++){
+                include('_card.php');
+            } ?>
         </div>
     </div>
 </div>

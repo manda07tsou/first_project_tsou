@@ -10,7 +10,7 @@
                     <select name="filter" id="" class="select-form">
                         <option value="test1">prix decroissant</option>
                         <option value="test2">prix croissant</option>
-                        <option value="test3">nomber en stock</option>
+                        <option value="test3">nombre en stock</option>
                     </select>
                 </div>
                 <button type="submit" class="btn-secondary ml-10">Afficher</button>
@@ -18,10 +18,8 @@
         </div>
     </div>
     <div class="products">
-        <?php for($i=0; $i<15; $i++){?>
-            <a href="?p=produit-details" class="product">
-                <?php include('_card.php');?>
-            </a>
-        <?php } ?>
+        <?php for($i=0; $i<4; $i++){
+            include('_card.php');
+        } ?>
     </div>
 </div>

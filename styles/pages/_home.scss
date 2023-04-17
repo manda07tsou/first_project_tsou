@@ -22,6 +22,10 @@
 
 .product-section{
     @extend %container;
+
+    .card{
+        text-align: left;
+    }
 }
 
 .product-section .category-btn a{

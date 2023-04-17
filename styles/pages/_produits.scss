@@ -37,10 +37,23 @@
     gap: 10px;
 }
 
+.products .card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    .btn{
+        background-color: var(--background);
+        font-size: 1.1em!important;
+    }
+}
+
 
 @media (min-width:800px){
     .product-header{
         position: fixed;
+        z-index: 200;
         width: 100%;
     }
 
