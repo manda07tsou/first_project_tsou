@@ -2,9 +2,9 @@
     <div>
         <h1 class="text-secondary">Bienvenue sur E-Shop</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Modi optio recusandae minus deserunt, velit omnis odio.</p>
-        <a href="?p=produits" class="btn-primary mt-5">Acheter maintenant<span class="icon">&#10095;<span></a>
+        <a href="?p=produits" class="btn-primary mt-5">Acheter maintenant<span class="icon"><i class="fa-sharp fa-solid fa-arrow-right"></i><span></a>
     </div>
-    <img src="./../images/fondHeader.webp" alt="home-img" class="home-img">
+    <img src="./../images/icons/fondHeader.png" alt="home-img" class="home-img">
 </div>
 
 <div class="">
@@ -23,14 +23,15 @@
             include('produits/_card.php');
         } ?>
         </div>
-        <a href="?p=produits" class="link-show-all">Afficher plus &#10095;</a>
+        <a href="?p=produits" class="link-show-all">Afficher plus <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
     </div>
 
     <div class="services-section">
         <h4 class="page-title">Services</h4>
         <div class="cards">
             <div class="card">
-                <div class="card-title">services 1</div>
+                <img src="./../images/icons/moto.png" alt="">
+                <div class="card-title">Livraison gratuit</div>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
@@ -39,7 +40,8 @@
             </div>
 
             <div class="card">
-                <div class="card-title">services 1</div>
+                <img src="./../images/icons/reglages.png" alt="">
+                <div class="card-title">Installation</div>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
@@ -48,6 +50,7 @@
             </div>
 
             <div class="card">
+                <img src="./../images/icons/prestations-de-service.png" alt="">
                 <div class="card-title">services 1</div>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>

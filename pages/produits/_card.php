@@ -5,7 +5,7 @@
     <div class="card-body">
         <a href="?p=produit-details">
             <div class="card-title">nom produit</div>
-            <h6 class="text-primary card-title">
+            <h6 class="card-title">
                 <script>document.write(new Intl.NumberFormat('fr-FR').format(1500000))</script> Ar
             </h6>
         </a>
@@ -24,7 +24,7 @@
     <div class="card-body">
         <a href="?p=produit-details">
             <div class="card-title">nom produit</div>
-            <h6 class="text-primary card-title">
+            <h6 class=" card-title">
                 <script>document.write(new Intl.NumberFormat('fr-FR').format(1500000))</script> Ar
             </h6>
         </a>
@@ -43,7 +43,7 @@
     <div class="card-body">
         <a href="?p=produit-details">
             <div class="card-title">nom produit</div>
-            <h6 class="text-primary card-title">
+            <h6 class=" card-title">
                 <script>document.write(new Intl.NumberFormat('fr-FR').format(1500000))</script> Ar
             </h6>
         </a>
@@ -62,7 +62,7 @@
     <div class="card-body">
         <a href="?p=produit-details">
             <div class="card-title">nom produit</div>
-            <h6 class="text-primary card-title">
+            <h6 class=" card-title">
                 <script>document.write(new Intl.NumberFormat('fr-FR').format(1500000))</script> Ar
             </h6>
         </a>
@@ -81,7 +81,7 @@
     <div class="card-body">
         <a href="?p=produit-details">
             <div class="card-title">nom produit</div>
-            <h6 class="text-primary card-title">
+            <h6 class=" card-title">
                 <script>document.write(new Intl.NumberFormat('fr-FR').format(1500000))</script> Ar
             </h6>
         </a>

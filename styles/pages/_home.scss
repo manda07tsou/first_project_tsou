@@ -53,6 +53,13 @@
     @extend %container;
 }
 
+.services-section .card img{
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+
+}
+
 .services-section .card{
     margin-top: 20px;
 }
@@ -98,10 +105,9 @@
     }
     .home-img{
         display: block;
-        width: 300px;
-        border-radius: 25% 50%;
-        width: 450px;
-        margin-right: 50px;
+        // border-radius: 25% 50%;
+        width: 550px;
+        // margin-right: 50px;
     }
 
     .product-section, .services-section, .contact-section{
