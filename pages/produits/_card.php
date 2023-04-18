@@ -10,7 +10,7 @@
             </h6>
         </a>
         <div>
-            <a href="#" class="btn" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
+            <a href="#" class="btn btn-rounded" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
         </div>
     </div>
     <div class="card-footer">
@@ -29,7 +29,7 @@
             </h6>
         </a>
         <div>
-            <a href="#" class="btn" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
+            <a href="#" class="btn  btn-rounded" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
         </div>
     </div>
     <div class="card-footer">
@@ -48,7 +48,7 @@
             </h6>
         </a>
         <div>
-            <a href="#" class="btn" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
+            <a href="#" class="btn  btn-rounded" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
         </div>
     </div>
     <div class="card-footer">
@@ -67,7 +67,7 @@
             </h6>
         </a>
         <div>
-            <a href="#" class="btn" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
+            <a href="#" class="btn btn-rounded" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
         </div>
     </div>
     <div class="card-footer">
@@ -86,7 +86,7 @@
             </h6>
         </a>
         <div>
-            <a href="#" class="btn" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
+            <a href="#" class="btn btn-rounded" title="ajouter aux panier"><i class="fa fa-cart-plus"></i></a>
         </div>
     </div>
     <div class="card-footer">

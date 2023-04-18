@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="similar-products">
+    <div class="similar-products mt-10 pt-10">
         <h5 class="page-title">Produits similaires</h5>
         <div class="products">
             <?php for($i=0; $i<1; $i++){
