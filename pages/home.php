@@ -31,30 +31,37 @@
         <div class="cards">
             <div class="card">
                 <img src="./../images/icons/moto.png" alt="">
-                <div class="card-title">Livraison gratuit</div>
+                <h6 class="card-title">Livraison gratuit</h6>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn-secondary-outlined btn-sm ">Plus de details</a>
                 </div>
             </div>
 
             <div class="card">
                 <img src="./../images/icons/reglages.png" alt="">
-                <div class="card-title">Installation</div>
+                <h6 class="card-title">Installation</h6>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn-secondary-outlined btn-sm ">Plus de details</a>
                 </div>
             </div>
 
             <div class="card">
                 <img src="./../images/icons/prestations-de-service.png" alt="">
-                <div class="card-title">services 1</div>
+                <h6 class="card-title">services 1</h6>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn-secondary-outlined btn-sm ">Plus de details</a>
                 </div>
             </div>
         </div>
