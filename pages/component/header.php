@@ -9,9 +9,9 @@
         <ul class="menus">
             <li class="menu-active"><a href="?p=home">accueil</a></li>
             <li><a href="?p=produits">produits</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">a propos</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="?p=services">services</a></li>
+            <li><a href="?p=a-propos">a propos</a></li>
+            <li><a href="?p=contact">contact</a></li>
         </ul>
         <div class="nav-side">
             <a href="#" class="login-link"><i class="fa fa-circle-user"></i></a>

@@ -55,7 +55,7 @@
 
             <div class="card">
                 <img src="./../images/icons/prestations-de-service.png" alt="">
-                <h6 class="card-title">services 1</h6>
+                <h6 class="card-title">services 3</h6>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>

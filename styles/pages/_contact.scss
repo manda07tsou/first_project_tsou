@@ -1,3 +1,29 @@
-#contact{
+.contact{
+    @extend %container;
     text-align: start;
+    padding-top: 20px;
+}
+
+.contact .page-title{
+    text-align: center;
+}
+
+@media (min-width: 720px){
+    .contact-grid{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+}
+
+.adress-row{
+    background-color: var(--background-light);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.adress-row img{
+    margin-top: 20px;
 }

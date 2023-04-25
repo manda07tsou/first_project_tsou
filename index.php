@@ -12,8 +12,17 @@ ob_start();
         break;
         case 'produit-details':
             include('pages/produits/details_produit.php'); 
+        break;
+        case 'services':
+            include('pages/services.php');
+        break;
+        case 'a-propos':
+            include('pages/about.php');
+        break;
+        case 'contact':
+            include('pages/contact.php');
+        break;
     
-
     }
 $body = ob_get_clean();
 
