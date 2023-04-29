@@ -37,7 +37,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn-secondary-outlined btn-sm ">Plus de details</a>
+                    <a href="?p=services" class="btn-secondary-outlined btn-sm ">Plus de details</a>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn-secondary-outlined btn-sm ">Plus de details</a>
+                    <a href="?p=services" class="btn-secondary-outlined btn-sm ">Plus de details</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn-secondary-outlined btn-sm ">Plus de details</a>
+                    <a href="?p=services" class="btn-secondary-outlined btn-sm ">Plus de details</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
     <div class="contact-section">
         <h4 class="page-title">Nous contacter</h4>
 
-        <div class="contact">
+        <div class="contact-grid">
             <form action="">
                 <label for="name">Nom</label>
                 <input type="text" class="form-control" name="name">

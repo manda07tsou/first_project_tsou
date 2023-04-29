@@ -8,16 +8,6 @@
     text-align: center;
 }
 
-@media (min-width: 720px){
-    .contact-grid{
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-
-}
-
 .adress-row{
     background-color: var(--background-light);
     padding: 20px;
@@ -26,4 +16,13 @@
 }
 .adress-row img{
     margin-top: 20px;
+}
+
+@media (min-width: 720px){
+    .contact-grid{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
