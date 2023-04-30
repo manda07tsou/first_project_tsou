@@ -22,6 +22,9 @@ ob_start();
         case 'contact':
             include('pages/contact.php');
         break;
+        case 'panier':
+            include('pages/cart.php');
+        break;
     
     }
 $body = ob_get_clean();

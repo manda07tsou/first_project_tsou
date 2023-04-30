@@ -52,6 +52,10 @@ $card-padding: 5px;
     height: auto;
 }
 
+.card-flex{
+    display: flex!important;
+}
+
 @media (min-width:720px){
     .card-details{
         display: grid;

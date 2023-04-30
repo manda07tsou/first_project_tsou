@@ -23,6 +23,6 @@
         </form>
     </div>
     <div>
-        <a href="#" class="btn-primary-outlined" id="panier-link"><i class="fas fa-cart-plus"></i><span>0 Item(s)</span></a>
+        <a href="?p=panier" class="btn-primary-outlined" id="panier-link"><i class="fas fa-cart-plus"></i><span>0 Item(s)</span></a>
     </div>
 </div>

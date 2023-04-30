@@ -14,7 +14,7 @@
             <li><a href="?p=contact">contact</a></li>
         </ul>
         <div class="nav-side">
-            <a href="#" class="login-link"><i class="fa fa-circle-user"></i></a>
+            <a href="?p=panier" class="login-link"><i class="fas fa-cart-plus"></i></a>
             <div class="theme-area">
                 <theme-switcher class="theme-switcher"></theme-switcher>
             </div>

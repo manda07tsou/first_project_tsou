@@ -1,5 +1,8 @@
 .input-number{
     border: 1px solid var(--border);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .input-number-field{
@@ -8,10 +11,26 @@
     max-width: 60px;
     text-align: center;
     font-weight: 600;
+    background-color: transparent;
 }
+
 
 .btn-increment, .btn-decrement{
     @extend .btn-sm;
     font-size: 1.2em!important;
     border-radius: 0;
+    border: none!important;
+}
+
+.carts{
+    .btn-increment, .btn-decrement{
+        padding: 1px!important;
+        min-width: 25px!important;
+        font-size: 1em!important;
+    }
+
+    .input-number-field{
+        max-width: 40px;
+        font-weight: 100;
+    }
 }

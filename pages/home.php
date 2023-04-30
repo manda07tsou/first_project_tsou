@@ -18,12 +18,12 @@
             <a href="#" class="btn">categorie</a>
         </div>
 
-        <div class="products">
+        <div class="products mb-10">
         <?php for($i=0; $i<2; $i++){
             include('produits/_card.php');
         } ?>
         </div>
-        <a href="?p=produits" class="link-show-all">Afficher plus <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <a href="?p=produits" class="btn-secondary mt-10">Afficher plus <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
     </div>
 
     <div class="services-section">

@@ -105,3 +105,9 @@
     border-radius: 50%!important;
 }
 
+.btn-danger{
+    @extend %btn;
+    background-color: rgb(230, 94, 94);
+    color: white;
+}
+

@@ -1,22 +1,36 @@
 <div class="container">
     <h2 class="page-title text-primary">Panier</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-    <?php for ($i=0; $i < 5 ; $i++) { ?>
-        <div class="card cart mb-5">
+    <form action="#">
+        <div class="carts">
             <div>
-                <img src="./../images/image2.png" style="width: 50px; height: 50px;" alt="">
+                <?php for ($i=0; $i < 5 ; $i++) { ?>
+                <div class="cart-item mb-5">
+                    <div>
+                        <img src="./../images/image2.png" class="cart-img" alt="">
+                    </div>
+                    <div class="panier-description">
+                        <strong class="text-secondary">nom produit</strong>
+                        <p>1 500 000 Ar</p>
+                    </div>
+                    <div>
+                        <input-number data-iteration=1></input-number>
+                    </div>
+                    <a href="#" class="cart-btn" title="supprimer">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </div>
+                <?php } ?>
             </div>
-            <div class="panier-description">
-                <strong>nom produit</strong>
-                <p>1 500 000 Ar</p>
+            <div class="cart-summary">
+                <div class="card">
+                    <h4>Commande</h4>
+
+                    <p class="summary-item">Articles: <span> 5 <span></p>
+                    <h6 class="summary-item">Total : <span>7 500 000 Ar <span></h6>
+                    <button class="btn-secondary">Confirmer</button>
+                </div>
             </div>
-            <div>
-                <input type="number" class="form-control"/>
-            </div>
-            <a href="#" class="cart-remove" title="supprimer">
-                <i class="fa fa-trash"></i>
-            </a>
         </div>
-    <?php } ?>
+    </form>
 </div>
