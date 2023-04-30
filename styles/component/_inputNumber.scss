@@ -1,0 +1,17 @@
+.input-number{
+    border: 1px solid var(--border);
+}
+
+.input-number-field{
+    border: none;
+    outline: none;
+    max-width: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn-increment, .btn-decrement{
+    @extend .btn-sm;
+    font-size: 1.2em!important;
+    border-radius: 0;
+}

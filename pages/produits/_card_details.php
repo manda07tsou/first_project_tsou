@@ -39,10 +39,11 @@
         <div class="card-footer">
             <form action="#">
                 <div class="card-action">
-                    <input type="number" class="form-control">
+                    <input-number data-iteration=1></input-number>
+                    <!-- <input type="number" class="form-control"> -->
                     <div>
-                        <a href="#" class="btn-primary">Ajouter au panier</a>
-                        <a href="#" class="btn-secondary">Acheter</a>
+                        <a href="#" class="btn-sm btn-primary">Ajouter au panier</a>
+                        <a href="#" class="btn-sm btn-secondary">Acheter</a>
                     </div>
                 </div>
             </form>

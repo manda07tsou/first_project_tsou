@@ -8,11 +8,15 @@ export class InputNumber extends HTMLElement{
         let container = createElementWithClass('div','input-number');
         this.input = createInputElement('number')
         this.input.value = this.iteration;
+        this.input.setAttribute('class','input-number-field');
         let btnIncrement = createElementWithClass('button', 'btn-increment')
         btnIncrement.textContent = "+"
+        // let btnIncrement = document.querySelector('.btn-increment')
         btnIncrement.addEventListener('click',(e) => this.increment(e))
         let btnDecrement = createElementWithClass('button', 'btn-decrement')
         btnDecrement.textContent = "-"
+
+        // let btnDecrement = document.querySelector('.btn-decrement');
         btnDecrement.addEventListener('click', (e) => this.decrement(e))
         container.appendChild(btnDecrement)
         container.appendChild(this.input)
