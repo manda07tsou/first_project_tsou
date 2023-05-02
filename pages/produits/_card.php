@@ -1,6 +1,6 @@
 <div class="card card-link">
     <a href="?p=produit-details">
-        <img src="../images/image5.jpg" alt="">
+        <img src="https://placehold.co/200x200" alt="">
     </a>
     <div class="card-body">
         <a href="?p=produit-details">
@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div class="card card-link">
+<!-- <div class="card card-link">
     <a href="?p=produit-details">
         <img src="../images/image3.jpg" alt="">
     </a>
@@ -91,4 +91,4 @@
     </div>
     <div class="card-footer">
     </div>
-</div>
+</div> -->

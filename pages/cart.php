@@ -7,7 +7,7 @@
                 <?php for ($i=0; $i < 5 ; $i++) { ?>
                 <div class="cart-item mb-5">
                     <div>
-                        <img src="./../images/image2.png" class="cart-img" alt="">
+                        <img src="https://placehold.co/60x60" class="cart-img" alt="">
                     </div>
                     <div class="panier-description">
                         <strong class="text-secondary">nom produit</strong>

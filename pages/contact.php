@@ -19,7 +19,7 @@
                         </li>
                     </ul>
                 </p>
-                <img src="./../images/local2.jpg" alt="">
+                <img src="https://placehold.co/600x400" alt="">
             </div>
             <div class="mail-row">
                 <h6>Nous envoyer un mail</h6>

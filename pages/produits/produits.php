@@ -17,10 +17,10 @@
             </form>
         </div>
     </div>
-    <?php for($i=1; $i<4; $i++){ ?>
+    <div class="products">
+    <?php for($i=1; $i<21; $i++){ ?>
         <!-- <h4 class="product-category">Categorie <?= $i ?></h4> -->
-        <div class="products">
             <?php include('_card.php'); ?>
-        </div>
     <?php } ?>
+        </div>
 </div>

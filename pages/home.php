@@ -19,7 +19,7 @@
         </div>
 
         <div class="products mb-10">
-        <?php for($i=0; $i<2; $i++){
+        <?php for($i=0; $i<5; $i++){
             include('produits/_card.php');
         } ?>
         </div>
@@ -55,7 +55,7 @@
 
             <div class="card">
                 <img src="./../images/icons/prestations-de-service.png" alt="">
-                <h6 class="card-title">services 3</h6>
+                <h6 class="card-title">Services après-vente</h6>
                 <div class="card-body">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et tenetur suscipit amet consequatur totam ipsum nisi, sapiente in aut quibusdam!</p>

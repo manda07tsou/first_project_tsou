@@ -12,7 +12,8 @@ $card-padding: 10px;
 }
 
 .card-link:hover{
-    box-shadow: 0 0 5px var(--color-secondary);
+    // box-shadow: 0 0 5px var(--border);
+    transform: scale(1.01)
 }
 
 

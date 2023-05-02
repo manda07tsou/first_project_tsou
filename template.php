@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="e068d67595"> -->
+    <script src="https://kit.fontawesome.com/e068d67595.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
