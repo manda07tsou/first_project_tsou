@@ -49,6 +49,18 @@
     }
 }
 
+.products .card{
+    margin-bottom: 30px;
+}
+
+.product-category{
+    display: inline-block;
+    background-color: var(--background-light);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 @media (min-width:800px){
     .product-header{

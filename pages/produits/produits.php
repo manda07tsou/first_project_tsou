@@ -2,7 +2,7 @@
 
 <div class="products-area">
     <div class="filter-area">
-        <h4 class="page-title">Nos produits:</h4>
+        <h2 class="page-title">Nos produits</h2>
         <div>
             <form action="#" class="filter-form">
                 <div class="form-group">
@@ -17,9 +17,10 @@
             </form>
         </div>
     </div>
-    <div class="products">
-        <?php for($i=0; $i<4; $i++){
-            include('_card.php');
-        } ?>
-    </div>
+    <?php for($i=1; $i<4; $i++){ ?>
+        <!-- <h4 class="product-category">Categorie <?= $i ?></h4> -->
+        <div class="products">
+            <?php include('_card.php'); ?>
+        </div>
+    <?php } ?>
 </div>

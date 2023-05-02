@@ -2,10 +2,8 @@
     --background: #f7fafb;
     --background-light: #ffffff;
     --color: #404040;
-    // --color-primary: #cc6600;
     --color-primary: #f5563d;
     --primary-inversed: #ffe0e0;
-    // --color-secondary: #008040;
     --color-secondary: #4080bf;
     --border: #d5e3ec;
     --padding-container: 20px;
@@ -27,10 +25,11 @@
 
 body{
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.5em;
     background-color: var(--background);
     color: var(--color);
+    letter-spacing: .3px;
 }
 
 body,header,footer,.card, .nav,.product-header{
@@ -38,7 +37,7 @@ body,header,footer,.card, .nav,.product-header{
 }
 
 .body{
-    margin-top: 64px;
+    margin-top: 62px;
     padding-bottom: 50px;
 }
 
